@@ -1,0 +1,44 @@
+.relative {
+  background-image: url('img/Certificado_fondo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .relative {
+    max-width: 400px;
+  }
+}
+
+.font-certificate {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.font-cursiva {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* Añadir estilos adicionales según sea necesario para hacer el contenido responsivo */
+@media print {
+  body {
+    margin: 20px; /* Ajusta el margen de la página para la impresión */
+  }
+  .relative {
+    background-image: url('img/Certificado_fondo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+  }
+  .w-100 {
+    width: 100% !important; /* Asegura que el ancho sea del 100% para imprimir */
+  }
+  .max-w-2xl {
+    max-width: 100% !important; /* Asegura que el ancho máximo sea del 100% para imprimir */
+  } }
